@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>mod_articlesID</name>
+    <author>John Doe</author>
+    <version>1.0.0</version>
+    <description>mod_articlesID</description>
+    <files>
+        <filename>mod_articlesID.xml</filename>
+        <filename module="mod_articlesID">mod_articlesID.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field
+					name="fj_artinmod_id"
+					type="text"
+					label=""
+					description="" >
+					<option value=""></option>
+				</field>
+
+			</fieldset>
+		</fields>
+    </config>
+</extension>
